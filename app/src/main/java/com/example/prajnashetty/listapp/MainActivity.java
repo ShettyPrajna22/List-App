@@ -40,7 +40,7 @@ import org.json.JSONArray;
 import java.util.ArrayList;
 import java.util.List;
 
-
+//i chaged thisssssss
 public class MainActivity extends AppCompatActivity implements ContactsAdapter.ContactsAdapterListener{
     private static final String TAG = MainActivity.class.getSimpleName();
     private RecyclerView recyclerView;
