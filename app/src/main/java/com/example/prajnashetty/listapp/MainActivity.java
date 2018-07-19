@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity implements ContactsAdapter.C
     private ContactsAdapter mAdapter;
     private SearchView searchView;
     private TextView tvView;
+    private TextView TV2;
 
     // url to fetch contacts json
     private static final String URL = "https://api.androidhive.info/json/contacts.json";
