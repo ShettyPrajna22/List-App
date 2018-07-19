@@ -27,6 +27,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.Response;
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity implements ContactsAdapter.C
     private List<Contact> contactList;
     private ContactsAdapter mAdapter;
     private SearchView searchView;
+    private TextView tvView;
 
     // url to fetch contacts json
     private static final String URL = "https://api.androidhive.info/json/contacts.json";
